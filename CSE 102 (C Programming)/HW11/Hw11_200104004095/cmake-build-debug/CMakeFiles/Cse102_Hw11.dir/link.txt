@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Cse102_Hw11.dir/LinkedLists.c.o CMakeFiles/Cse102_Hw11.dir/main.c.o -o Cse102_Hw11 
