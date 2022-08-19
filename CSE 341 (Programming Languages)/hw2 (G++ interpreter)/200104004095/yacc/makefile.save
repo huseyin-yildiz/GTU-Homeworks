@@ -1,6 +1,0 @@
-gcc:flex
-	gcc lex.yy.c -o program
-flex:yacc
-	flex lexer.l
-yacc
-
