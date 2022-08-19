@@ -1,0 +1,3 @@
+javac src/*.java
+clear
+java -classpath src/ Main

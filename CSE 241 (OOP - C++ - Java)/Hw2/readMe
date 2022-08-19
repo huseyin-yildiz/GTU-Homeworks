@@ -1,0 +1,5 @@
+derlemek için "g++ -o TheGame main.cpp hex.cpp hexPlayer.cpp" komutunu kullanabilirsiniz
+veya ./makeFile ile otomatik derletebilirsiniz.
+
+Mehmet Hüseyin YILDIZ
+200104004095

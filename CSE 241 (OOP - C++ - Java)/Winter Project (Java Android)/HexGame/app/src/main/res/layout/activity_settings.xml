@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Welcome to Hex Game"
+        android:textColor="#0000ff"
+        android:textSize="26sp" />
+
+    <RadioGroup
+        android:id="@+id/radioBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_one"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="One - One"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_computer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="One - Computer"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/user1Start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:text="User 1 starts"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="User 2 starts"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:paddingEnd="10sp"
+        android:text="User 1"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/settings_color1"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:checked="true"
+            android:text="X"
+            android:gravity="center"
+            android:tag="Blue"
+            android:background="@drawable/blue"
+            android:button="@null"
+            android:onClick="colorOnClick" />
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/red"
+            android:tag="Red"
+            android:button="@null"
+            android:onClick="colorOnClick"
+            android:outlineProvider="paddedBounds" />S
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:tag="Green"
+            android:button="@null"
+            android:textAlignment="center"
+            android:background="@drawable/green"
+            android:onClick="colorOnClick" />
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:tag="Orange"
+            android:background="@drawable/orange"
+            android:button="@null"
+            android:onClick="colorOnClick"
+            android:outlineProvider="background" />
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:tag="Yellow"
+            android:background="@drawable/yellow"
+            android:button="@null"
+            android:onClick="colorOnClick" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textUser2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:paddingEnd="10sp"
+        android:text="User 2"/>
+
+    <RadioGroup
+        android:id="@+id/settings_color2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:tag="Blue"
+            android:background="@drawable/blue"
+            android:button="@null"
+            android:onClick="colorOnClick" />
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="X"
+            android:gravity="center"
+            android:background="@drawable/red"
+            android:tag="Red"
+            android:button="@null"
+            android:onClick="colorOnClick"
+            android:outlineProvider="paddedBounds" />S
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:button="@null"
+            android:tag="Green"
+            android:textAlignment="center"
+            android:background="@drawable/green"
+            android:onClick="colorOnClick" />
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:tag="Orange"
+            android:background="@drawable/orange"
+            android:button="@null"
+            android:onClick="colorOnClick"
+            android:outlineProvider="background" />
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:tag="Yellow"
+            android:background="@drawable/yellow"
+            android:button="@null"
+            android:onClick="colorOnClick" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Board Size"/>
+
+    <NumberPicker
+        android:id="@+id/number_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:tooltipText="Board Size" />
+
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:text="Start"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

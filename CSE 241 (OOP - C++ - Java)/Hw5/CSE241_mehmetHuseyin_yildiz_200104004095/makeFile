@@ -1,0 +1,3 @@
+echo "The game is compiling...";
+g++ -o TheGame AbstractHex.cpp HexArray1D.cpp HexVector.cpp Location.cpp main.cpp -w;
+echo "Compiling is completed. The game created with \"TheGame\" name";

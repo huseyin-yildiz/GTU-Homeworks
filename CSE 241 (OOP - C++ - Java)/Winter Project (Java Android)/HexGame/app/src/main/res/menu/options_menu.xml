@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/btnUndo"
+        android:icon="@drawable/ic_undo"
+        app:showAsAction="always"
+        android:title="message"/>
+
+    <item
+        android:id="@+id/btnReset"
+        android:icon="@drawable/ic_reset"
+        app:showAsAction="always|withText"
+        android:title="picture"/>
+
+    <item
+        android:id="@+id/btnSave"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always"
+        android:title="mode"/>
+
+
+    <item
+        android:id="@+id/btnNewGame"
+        app:showAsAction="never|withText"
+        android:title="New Game"/>
+
+    <item
+        android:id="@+id/btnLoadGame"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never|withText"
+        android:title="Load Game"/>
+
+    <item
+        android:id="@+id/btnCompare"
+        app:showAsAction="never"
+        android:title="Compare Games"/>
+</menu>

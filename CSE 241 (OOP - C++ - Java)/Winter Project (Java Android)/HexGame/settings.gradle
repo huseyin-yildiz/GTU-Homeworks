@@ -1,0 +1,3 @@
+include ':JGraphT'
+include ':app'
+rootProject.name = "HexGame"

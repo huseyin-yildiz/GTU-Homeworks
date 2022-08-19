@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dell/CLionProjects/Cse102_Hw11/LinkedLists.c
+LinkedLists.h
+/home/dell/CLionProjects/Cse102_Hw11/LinkedLists.h
+stdio.h
+-
+
+/home/dell/CLionProjects/Cse102_Hw11/LinkedLists.h
+stdlib.h
+-
+string.h
+-
+
+/home/dell/CLionProjects/Cse102_Hw11/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+LinkedLists.h
+/home/dell/CLionProjects/Cse102_Hw11/LinkedLists.h
+

@@ -1,0 +1,3 @@
+javac source/*.java source/Containers/*.java
+clear
+java -classpath source/ Main

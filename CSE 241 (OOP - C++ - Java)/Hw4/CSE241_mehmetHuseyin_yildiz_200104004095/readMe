@@ -1,0 +1,5 @@
+for copiling you can use "g++ -o TheGame hex.cpp hexLast.cpp " command
+or ./makeFile 
+
+Mehmet Hüseyin YILDIZ
+200104004095
